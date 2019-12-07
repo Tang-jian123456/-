@@ -135,7 +135,8 @@ main {
   /* 鼠标指针变成手点击 */
   cursor: pointer;
 }
-.longin-button:hover{
+
+.longin-button:hover {
   background-color: #6ba9ef;
 }
 
@@ -154,10 +155,10 @@ main {
 
 .wlmm a {
   color: #225592;
-text-decoration: none;
-font-size: 0.8em;
+  text-decoration: none;
+  font-size: 0.8em;
 }
 
-.wlmm a:hover{
-   text-decoration: underline;
+.wlmm a:hover {
+  text-decoration: underline;
 }
