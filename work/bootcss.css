@@ -1,0 +1,181 @@
+header {
+  background-color: #222222;
+  position: fixed;
+  width: 100%;
+  padding: 1rem;
+  color: #9d9d9d;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #080808;
+}
+
+header>div {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+}
+
+header span:hover {
+  cursor: pointer;
+  color: #ffffff;
+}
+
+header span {
+  margin-right: 1rem;
+}
+
+header>div>div:first-child span:first-child {
+  font-size: 1.2em;
+}
+
+main {
+  padding-top: 58px;
+}
+
+.site-info {
+  background-image: url('111.jpg');
+  text-align: center;
+  padding: 5rem;
+}
+
+.title {
+  font-size: 7rem;
+  color: #ffffff;
+  padding: 1rem;
+  /* font-weight是文字加粗*/
+  font-weight: bold;
+  /*  font-family是调字体 */
+  /* font-family: fantasy; */
+}
+
+.second-title {
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding: 0.2rem;
+}
+
+.title-buttom {
+  padding: 0.5rem;
+  color: #ffffff;
+}
+
+.title-buttom>span:hover{
+background-color: #115894;
+}
+
+.title-buttom>span {
+  /* 背景颜色变化 */
+  transition: background-color 0.5s ;
+  background-color: #337ab6;
+  border-radius: 1rem;
+  padding: 1rem 1rem;
+  /*  cursor: pointer;是鼠标放在上面变成指针 */
+  cursor: pointer;
+  font-size: 1.2em;
+  /*
+   display和盒模型有关的三个显示模式。/
+   块级元素（比如div，section，p）默认为block
+   行级元素（比如span，i，b）默认是inline
+   inline不能正确处理padding和margin
+   inline-block可以保留inline的特征
+   又可以设置盒模型的参数
+    */
+  display: inline-block;
+  /* 盒子阴影 */
+  box-shadow: 0px 0.2rem 0px #23527c;
+}
+
+.site-info a {
+  text-decoration: none;
+  color: #9d9d9d;
+}
+
+.site-info a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.links {
+text-align: center;
+color: #555555;
+background-color: #f5f5f5;
+padding: 1rem;
+}
+
+.links a {
+  /* 去掉超链接的下划线 */
+  text-decoration: none;
+  color: #555555;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+.mylink :hover {
+  color: #ff0000;
+}
+
+.project-title{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.project-title>div {
+  /* 下边线 */
+  border-bottom: 1px solid #9d9d9d;
+  padding: 3rem 4rem 1rem 4rem;
+  font-size: 2.5rem;
+}
+
+.project-second-title {
+  font-size: 1rem;
+  color: #555555;
+  /* 上边距 */
+  padding-top: 0.5rem;
+}
+
+.projects {
+display: flex;
+justify-content: center;
+margin-top: 1rem;
+}
+
+.projects>div {
+  width: 1200px;
+  display: flex;
+  /* 压力布局子元素分行 */
+  flex-wrap: wrap;
+  /* 分散对齐 */
+  justify-content: space-between;
+}
+
+.project {
+  border: 1px solid #dddddd;
+  padding: 0.2rem;
+  text-align: center;
+  width: 22%;
+  margin-bottom: 2rem;
+}
+
+.project img{
+  width: 100%;
+}
+
+.project a {
+  color: #337ab7;
+  text-decoration: none;
+  font-size: 2rem;
+  display: inline-block;
+  padding: 2rem 0px 1rem 0px;
+}
+
+.project a:hover {
+  color: #2269ab;
+}
+
+.project-info {
+  font-size: 1.1rem;
+  padding: 0.5rem;
+  padding-bottom: 1rem;
+}
